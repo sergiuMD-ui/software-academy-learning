@@ -41,12 +41,7 @@ public class Palindromes {
     phrase = sb.toString();
     String reversedString = sb.reverse().toString();
 
-    if(phrase.equals(reversedString)){
-
-        return true;
-    }
-
-    return false;
+    return phrase.equals(reversedString);
 
   }
 }
