@@ -14,13 +14,16 @@ public class Main {
 
         s1.addStudent("John", 1, "john@email.com");
         s1.addStudent("Terry", 2, "terry@email.com");
-
+        //s1.removeUser(1);
         var listOfStudents = s1.returnStudentList();
 
         for(Users user: listOfStudents)
         {
             System.out.println("Lista de studenti: " + user.toString());
         }
+
+
+
 
     }
 }

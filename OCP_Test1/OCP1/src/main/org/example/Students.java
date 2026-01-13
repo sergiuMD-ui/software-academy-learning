@@ -25,13 +25,6 @@ public class Students {
         System.out.println("User " + index + " removed");
     }
 
-    @Override
-    public String toString() {
-        return "Students{" +
-                "list=" + list +
-                '}';
-    }
-
     public ArrayList<Users> returnStudentList(){
         return list;
     }

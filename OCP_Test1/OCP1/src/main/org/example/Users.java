@@ -11,4 +11,13 @@ public class Users {
         this.userID = userID;
         this.userEmail = userEmail;
     }
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "userName='" + userName + '\'' +
+                ", userID=" + userID +
+                ", userEmail='" + userEmail + '\'' +
+                '}';
+    }
 }
